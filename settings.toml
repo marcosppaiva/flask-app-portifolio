@@ -1,0 +1,18 @@
+[default]
+
+SQLALCHEMY_DATABASE_URI = 'sqlite:///portifolio.db'
+TITLE = 'Portfólio Marcos Paulo'
+
+SECRET_KEY = "77tgFCdrEEdv77554##@3" 
+
+
+EXTENSIONS = [
+
+    "portifolio.ext.configuration",
+    "portifolio.ext.database",
+    "portifolio.ext.admin",
+    "portifolio.ext.auth",
+    "portifolio.ext.commands",
+    "portifolio.ext.encrypt",
+    "portifolio.blueprints.webui"
+]
